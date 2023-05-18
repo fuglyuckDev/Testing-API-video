@@ -1,0 +1,17 @@
+.heroContainer {
+  width: 100vw;
+  outline: none;
+  height: 100vh;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transition: 0.5s;
+  filter: brightness(80%);
+}
+
+.hero:focus {
+  outline: none;
+}
