@@ -1,4 +1,5 @@
 {
   "name": "This is from a JSON file",
-  "vidSrc": "/videos/Pink_n_purple_video.mp4"
+  "vidSrc": "/videos/Pink_n_purple_video.mp4",
+  "vidPoster": "/images/poster/Pink_n_purple_poster.jpg"
 }

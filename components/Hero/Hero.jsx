@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Hero.module.scss";
 
-const Hero = ({ src }) => {
+const Hero = ({ src, poster }) => {
   const [vidSource, setVidSource] = useState();
   useEffect(() => {
     const heroVideo = document.querySelector("video");
@@ -19,7 +19,7 @@ const Hero = ({ src }) => {
 
   return (
     <div className={styles.heroContainer}>
-      <video autoPlay muted loop className={styles.hero}>
+      <video autoPlay muted loop className={styles.hero} poster={poster}>
         <source src={vidSource} />
       </video>
     </div>

@@ -31,7 +31,7 @@ export default function Home() {
         <p>This is an API testing area</p>
         <p>Status: {data && data.name ? "Success" : "Fail"}</p>
         <h1>Output: {data.name}</h1>
-        <Hero src={data.vidSrc} />
+        <Hero src={data.vidSrc} poster={data.vidPoster} />
       </main>
     </>
   );
